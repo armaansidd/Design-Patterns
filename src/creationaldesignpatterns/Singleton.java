@@ -15,7 +15,7 @@ package creationaldesignpatterns;
 // hence double checking is used.
 public class Singleton {
     
-    private static Singleton mSingleton = null;
+    private static volatile Singleton mSingleton = null;
     private Singleton(){
         
     }
